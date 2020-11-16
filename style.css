@@ -30,7 +30,7 @@
 
    .text_white{
      color:white;
-     font-size: 60px;
+     font-size: 55px;
      text-align: left;
      text-shadow: 1px 1px 5px #00000036;
    }
@@ -73,8 +73,8 @@
 
 
    .img_button_cab {
-    max-width:60px;
-    max-height: 60px;
+    max-width:50px;
+    max-height: 50px;
 
     }
 
