@@ -45,13 +45,13 @@
     box-shadow: 0px 5px 15px #00000048;
    }
    .infos_titulo{
-     background:  rgb(23, 126, 57);
-     border-radius: 10px;
-     padding: 5px;
+     display: flex;
      font-size: 36px;
-     color: rgb(255, 255, 255);
+     color: rgb(23, 126, 57);
     }
     .text_all{
+      display: flex;
+      padding-bottom: 20px;
       font-size: 22px;
      color: rgb(49, 49, 49);
      text-align: left;
@@ -89,4 +89,7 @@
   }
   .button_cab:focus {
       border: none;
+  }
+  .marcador_icon{
+    padding-right: 10px;
   }
