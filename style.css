@@ -37,7 +37,6 @@
 
    .infos {
     position: relative;
-    width: 30vw;
     padding: 30px;
     margin: 2vw;
     background: white;
@@ -96,4 +95,20 @@
   .rodape{
     background:#32BF84;
     padding: 40px
+  }
+
+  .progress_bar{
+    background:  #048243;
+    height:20px;
+    border-radius: 5px;
+  }
+  .progress_bar_back{
+    margin-right: 10px;
+    background:  #a3d6c2;
+    height:20px;
+    border-radius: 5px;
+    width: 100px;
+  }
+  .it_a{
+    color: rgba(0, 0, 0, 0.295);
   }
