@@ -41,7 +41,7 @@
     margin: 2vw;
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px #00000048;
+    box-shadow: 0px 2px 15px #0000001e;
    }
    .infos_titulo{
      display: flex;
@@ -54,7 +54,7 @@
       font-size: 22px;
       text-shadow: 1px 1px 2px #00000036;
      color: rgb(49, 49, 49);
-     text-align: left;
+     text-align: justify;
     }
 
    .coluna{
@@ -99,13 +99,13 @@
 
   .progress_bar{
     background:  #048243;
-    height:20px;
+    height:25px;
     border-radius: 5px;
   }
   .progress_bar_back{
     margin-right: 10px;
     background:  #a3d6c2;
-    height:20px;
+    height:25px;
     border-radius: 5px;
     width: 100px;
   }
