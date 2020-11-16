@@ -1,0 +1,92 @@
+  body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background: rgb(221, 227, 233);
+  }
+  .cabecalho {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    background: rgb(23, 126, 57);
+    box-shadow: 0px 5px 15px #00000048;
+   }
+   .text_cab{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+   }
+
+   .foto{
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     object-position: 40%;
+     border-radius: 150px;
+     transform: scaleX(-1);
+   }
+   .position_foto{
+     position: relative;
+     top: 40px;
+   }
+
+   .text_white{
+     color:white;
+     font-size: 60px;
+     text-align: left;
+   }
+
+   .infos {
+    position: relative;
+    width: 35vw;
+    padding: 30px;
+    margin: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #00000048;
+   }
+   .infos_titulo{
+     background:  rgb(23, 126, 57);
+     border-radius: 10px;
+     padding: 5px;
+     font-size: 36px;
+     color: rgb(255, 255, 255);
+    }
+    .text_all{
+      font-size: 22px;
+     color: rgb(49, 49, 49);
+     text-align: left;
+    }
+
+   .coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center top;
+    align-items: center top;
+    
+   }
+   .linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center top;
+   }
+
+
+   .img_button_cab {
+    max-width:60px;
+    max-height: 60px;
+
+    }
+
+    .button_cab {
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      cursor:pointer;
+  }
+  .button_cab:focus {
+      border: none;
+  }
