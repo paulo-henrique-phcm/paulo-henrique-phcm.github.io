@@ -1,5 +1,5 @@
   body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     background: #d5e9df;
@@ -26,6 +26,7 @@
      object-position: 40%;
      border-radius: 150px;
      transform: scaleX(-1);
+     box-shadow: 2px 2px 15px #0000004f;
    }
 
    .text_white{
@@ -38,7 +39,7 @@
    .infos {
     position: relative;
     padding: 30px;
-    margin: 2vw;
+    margin: 1.5vw;
     background: white;
     border-radius: 10px;
     box-shadow: 0px 2px 15px #0000001e;
@@ -51,8 +52,8 @@
     .text_all{
       display: flex;
       padding-bottom: 20px;
-      font-size: 22px;
-      text-shadow: 1px 1px 2px #00000036;
+      font-size: 22;
+      text-shadow: 1px 1px 2px #0000001c;
      color: rgb(49, 49, 49);
      text-align: justify;
     }
@@ -75,7 +76,6 @@
    .img_button_cab {
     max-width:50px;
     max-height: 50px;
-
     }
 
     .button_cab {
