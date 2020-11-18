@@ -1,72 +1,79 @@
-
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet"> <link href="./style.css" rel="stylesheet" />
-        <script type="text/javascript" src="./func.js"> </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
         <title>Paulo Henrique - Currículo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     </head>
     <body>
-        <div class='linha cabecalho'>
-            <div class='coluna' style='padding-top: 30px;'>
-                <div class='position_foto'>
-                    <img class='foto' src="./img/2.jpg" alt="minha foto" />
-                </div>
-                <div class='linha' style='padding-top: 30px;'>
-                    <a href='https://github.com/paulo-henrique-phcm' target="_blank">
-                        <button class="button_cab">
-                            <img class='img_button_cab' src='./img/git_icon.png' alt='Meu Git'/>
-                        </button>
+        <!--cabecalho com foto e botoes-->
+        <div class="cabecalho linha_cab">
+            <div class='coluna foto_position'>
+                <div><img class='foto' src="./img/2.jpg" alt="minha foto"/></div>
+                <div class='linha'>
+                    <a href='https://github.com/paulo-henrique-phcm' target="_blank" class='btn-cab'>
+                        <i class="fab fa-github style_btn_cab"></i>
                     </a>
-                    <a href='https://drive.google.com/open?id=17V_P0IzSX0y1KfzxsSzO2EgW1XSt7QgR ' target="_blank">
-                        <button class="button_cab">
-                            <img class='img_button_cab' src='./img/cv_icon.png' alt='Meu linkedin'/>
-                        </button>
+                    <a href='https://drive.google.com/open?id=17V_P0IzSX0y1KfzxsSzO2EgW1XSt7QgR ' target="_blank" class='btn-cab'>
+                        <i class="fas fa-id-card-alt style_btn_cab"></i>
                     </a>
-                        <a href='http://www.linkedin.com/in/paulo-henrique-cassiano-machado' target="_blank">
-                        <button class="button_cab">
-                            <img class='img_button_cab' src='./img/in_icon.png'/>
-                        </button>
+                        <a href='http://www.linkedin.com/in/paulo-henrique-cassiano-machado' target="_blank" class='btn-cab'>
+                        <i class="fab fa-linkedin-in style_btn_cab" ></i>
                     </a>
-                    <button class="button_cab" id='button_mail_show' onclick="alert('Meu E-mail: <    paulo.phcm98@gmail.com    >')">
-                        <img class='img_button_cab' src='./img/mail_icon.png'/>
+                    <button class="btn_cab" id='button_mail_show' onclick="alert('Meu E-mail: <    paulo.phcm98@gmail.com    >')">
+                        <i class="fas fa-envelope style_btn_cab" ></i>
                     </button>
+                    <a href='https://api.whatsapp.com/send?phone=5565984632078' target="_blank" class='btn-cab'>
+                        <i class="fab fa-whatsapp style_btn_cab"></i>
+                    </a>
                 </div>
             </div>
-            <div class='coluna' style='padding-left:60px; padding-bottom: 50px; padding-right: 10px; padding-top: 100px;'>
-                <div class='text_white'>Paulo Henrique Cassiano Machado</div>
-                <div style='color:rgb(255, 255, 255); font-size: 30px; text-align: left; padding-bottom: 50px;'>
-                    Bacharelando em Engenharia da Computação - <b>UFMT</b>
+            <div class='container_cab'>
+                <div style='padding-top: 50px;'>
+                    <div class='text_white_titulo'>Paulo Henrique Cassiano Machado</div>
+                    <div class='text_white_subtitle'>Bacharelando em Engenharia da Computação - <b>UFMT</b></div>
                 </div>
-                <div>
-                    <table style="width:500px; ">
-                        <tr class='text_cab'>
-                            <th><b>Telefone: </b></th>
-                            <td><a href='https://api.whatsapp.com/send?phone=5565984632078' target="_blank" style="text-decoration:none; color:white">(65) 9 8463-2078</a></td>
-                        </tr>
-                        <tr class='text_cab'>
-                            <th><div><b>Idade: </b></div></th>
-                            <td><div>22 Anos</div></td>
-                        </tr>
-                        <tr class='text_cab'>
-                            <th><b>Estado Civil: </b></th>
-                            <td>Solteiro</td>
-                        </tr>
-                        <tr class='text_cab'>
-                            <th><b>Cidade: </b></div></th>
-                            <td>Várzea Grande</td>
-                        </tr>
-                        <tr class='text_cab'>
-                            <th><b>CEP: </b></th>
-                            <td>78115-270</td>
-                        </tr>
-                    </table>
+                <!--tabela do cabecalho-->
+                <table style='padding-top: 40px; padding-bottom: 40px;'>
+                    <tr class='text_cab_tabela'>
+                        <th><b>Telefone: </b></th>
+                        <td><a>(65) 9 8463-2078</a></td>
+                    </tr>
+                    <tr class='text_cab_tabela'>
+                        <th><div><b>Idade: </b></div></th>
+                        <td><div>22 Anos</div></td>
+                    </tr>
+                    <tr class='text_cab_tabela'>
+                        <th><b>Estado Civil: </b></th>
+                        <td>Solteiro</td>
+                    </tr>
+                    <tr class='text_cab_tabela'>
+                        <th><b>Cidade: </b></div></th>
+                        <td>Várzea Grande</td>
+                    </tr>
+                    <tr class='text_cab_tabela'>
+                        <th><b>CEP: </b></th>
+                        <td>78115-270</td>
+                    </tr>
+                </table>
 
-                </div>
             </div>
         </div>
-        <div class='linha' style='padding:60px'>
-            <div class='coluna'> <!--Coluna 1 (Esquerda)-->
+
+
+
+
+
+
+
+        <!--inicio do corpo principal-->
+        <div class='linha_body'> 
+            <!--coluna da esquerda no caso de tela grande-->
+            <div class='coluna'>
                 <div class='infos'> <!--qualificações-->
                     <b class='infos_titulo'>Competências:</b></br>
                     <table style="width:100%">
@@ -88,7 +95,10 @@
                         </tr>
                     </table>
                 </div>
-                <div class='infos'> <!--Cursos-->
+
+                <!--Cursos-->
+
+                <div class='infos'> 
                     <b class='infos_titulo'>Formação e Alguns Cursos:</b></br>
                     <table style="width:100%">
                         <tr class='text_all'>
@@ -125,7 +135,8 @@
                     </table>
                 </div>
 
-                <div class='infos'> <!--Competencias-->
+                <!--Competencias-->
+                <div class='infos'> 
                     <b class='infos_titulo'>Principais Qualificações e Habilidades:</b></br>
                     <table style="width:100%">
                         <tr class='text_all'>
@@ -142,14 +153,15 @@
                         </tr>
                         <tr class='text_all'>
                             <th><div class="progress_bar_back"><div class="progress_bar" style="width:75%"></div></div></th>
-                            <td>Java <i class='it_a'>(estudos acadêmicos)</i></td>
-                        </tr>
-                        <tr class='text_all'>
-                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:70%"></div></div></th>
                             <td>HTML, CSS <i class='it_a'>(projetos pessoais)</i></td>
                         </tr>
                         <tr class='text_all'>
-                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:70%"></div></div></th>
+                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:62%"></div></div></th>
+                            <td>Java <i class='it_a'>(estudos acadêmicos)</i></td>
+                        </tr>
+                        
+                        <tr class='text_all'>
+                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:60%"></div></div></th>
                             <td>C++ <i class='it_a'>(estudos acadêmicos)</i></td>
                         </tr>
                         <tr class='text_all'>
@@ -157,8 +169,12 @@
                             <td>Flutter <i class='it_a'>(Projeto acadêmico)</i></td>
                         </tr>
                         <tr class='text_all'>
-                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:55%"></div></div></th>
-                            <td>Javascript <i class='it_a'>(estudando em projetos pessoais)</i></td>
+                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:50%"></div></div></th>
+                            <td>PHP <i class='it_a'>(estudando em projetos pessoais atualmente)</i></td>
+                        </tr>
+                        <tr class='text_all'>
+                            <th><div class="progress_bar_back"><div class="progress_bar" style="width:50%"></div></div></th>
+                            <td>Javascript <i class='it_a'>(estudando em projetos pessoais atualmente)</i></td>
                         </tr>
                         <tr class='text_all'>
                             <th><div class="progress_bar_back"><div class="progress_bar" style="width:100%"></div></div></th>
@@ -166,7 +182,10 @@
                         </tr>
                     </table>
                 </div>
-                <div class='infos'> <!--Experiencias -->
+
+                <!--Experiencias -->
+
+                <div class='infos'> 
                     <b class='infos_titulo'>Experiências:</b></br>
                     <table style="width:100%">
                         <tr class='text_all'>
@@ -211,24 +230,27 @@
                     </table>
                 </div>
             </div>
-            <div class='coluna' style="max-width:50% ;"> <!--Coluna Direita-->
+            <!--coluna da direita no caso de tela grande-->
+            <div class='coluna tam'>
                 <div class='infos'>
                     <div class='infos_titulo'><b>Um Pouco Sobre Mim:</b></div>
                     <p class='text_all' style='text-indent: 1.5em; text-align: justify;'>Desde criança tive PRAZER em compreender as coisas ao meu redor, logo me imaginei um engenheiro. 
                         Fiz diversos cursos como AutoCAD, Photoshop, informática, e finalizando o ensino médio com curso TÉCNICO em informática integrado, 
                         ingressei em meu primeiro trabalho com um grande ENGENHEIRO civil, Gelson Delmar Gascho, do qual me orgulho e devo todo meu respeito,
-                         pois, adquiri muito conhecimento e até hoje temos uma forte ligação.
+                        pois, adquiri muito conhecimento e até hoje temos uma forte ligação.
 
                         <p class='text_all' style='text-indent: 1.5em; text-align: justify; '>Atualmente curso Engenharia de computação na UFMT e busco constantemente alimentar meu principal prazer de infância.
-                         Enquanto estudante, participo de vários projetos internos que vão desde automação predial mobile á resolução de problemas
-                          utilizando redes neurais artificiais</p>
+                        Enquanto estudante, participo de vários projetos internos que vão desde automação predial mobile á resolução de problemas
+                        utilizando redes neurais artificiais</p>
                         
                         <p class='text_all' style='text-indent: 1.5em; text-align: justify;'>Gosto de música, tecnologias, fotografia, e coisas ao ar livre. Sou calmo, sempre busco dar o meu melhor e
-                         aprender o máximo que posso, visando por em prática para, assim, enaltecer minhas contribuições para a empresa.
+                        aprender o máximo que posso, visando por em prática para, assim, enaltecer minhas contribuições para a empresa.
                         </p>
                         <p class='text_all' style='text-indent: 1.5em; text-align: justify;'>Além de Empenho e HONESTIDADE uma boa saúde mental para mim são o caminho para diminuir as barreiras profissionais e crescer como um grande engenheiro.</p>
 
                 </div>
+
+
                 <div class='infos'>
                     <div class='infos_titulo'><b>Meus Objetivos:</b></div>
                     <p class='text_all' style='text-indent: 1.5em; text-align: justify;'>
@@ -239,6 +261,8 @@
                         faz parte do mercado, mas também costumo me concentrar naquilo que percebo que gosto, como um robbie.
                     </p>
                 </div>
+
+
                 <div class='infos'>
                     <div class='infos_titulo'><b>Coisas Que Me Interesso:</b></div><br>
                     <table style="width:100%">
@@ -255,16 +279,15 @@
                                     pessoal na área foi simples mas me rendeu muito conhecimento. Atualmente estudo um algoritmo que detecta linhas e interseções em fingerprints e, por inferência,
                                     também funcionará em fotos de plantações feitas por drone.
                                 </a>
-                                    
-                                
+                                                        
                             </td>
                         </tr>
                         <tr class='text_all'>
                             <th><img class='marcador_icon' src='./img/marcador_icon.png' alt='Tenho'/></th>
                             <td>Desenvolvimento de Softwares em Geral<br> 
                                 <a style='font-size: 18px; color: #048243;'>
-                                   Softwares são importantes e recorrentes no mundo atual. É uma área que também tenho interesse 
-                                   em me profissionalizar.
+                                Softwares são importantes e recorrentes no mundo atual. É uma área que também tenho interesse 
+                                em me profissionalizar.
                                 </a>
                             </td>
                         </tr>
@@ -272,8 +295,15 @@
                             <th><img class='marcador_icon' src='./img/marcador_icon.png' alt='Tenho'/></th>
                             <td>Tecnologias Embarcadas<br> 
                                 <a style='font-size: 18px; color: #048243;'>
-                                   Por exemplo, Equipamento hospitalares, automóveis com tecnologia embarcada, indústrias, na rodovia ou até no Campo.<br>
-                                    
+                                Por exemplo, Equipamento hospitalares, automóveis com tecnologia embarcada, indústrias, na rodovia ou até no Campo.<br>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class='text_all'>
+                            <th><img class='marcador_icon' src='./img/marcador_icon.png' alt='Tenho'/></th>
+                            <td>Pesquisa<br> 
+                                <a style='font-size: 18px; color: #048243;'>
+                                A pesquisa na área de ciencias espaciais, astronômicas, georeferênciamento... com objetivo de desenvolver soluções para a humanidade me fascina!<br>
                                 </a>
                             </td>
                         </tr>
@@ -287,10 +317,12 @@
                         </tr>
                     </table>
                 </div>
-                
             </div>
         </div>
-        <div class='rodape linha' style="box-shadow: 2px 2px 15px #0000001e;">
+
+
+
+        <div class='rodape' style="box-shadow: 2px 2px 15px #0000001e;">
             <div class='text_all coluna' style='color:white; text-align: center;'>
                 Novas atualizações em breve.<br>
                 <b>Hospedado em: https://github.com/paulo-henrique-phcm/paulo-henrique-phcm.github.io</b><br>
@@ -299,5 +331,7 @@
                 +55 (65) 9 8463 2078<br>
             </div>
         </div>
+        
+        
     </body>
 </html>
