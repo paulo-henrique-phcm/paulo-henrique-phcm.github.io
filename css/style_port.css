@@ -1,0 +1,216 @@
+body{  
+    margin:0; 
+    padding:0; 
+    font-size: 100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+    font-family: 'Rubik', sans-serif;
+    background: #ececec;
+}
+/*=========alinhamentos========*/
+.coluna{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center top;
+    align-items: center top;
+   }
+   .container_cab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    padding-left: 3vw;
+   }
+   
+   .linha_cab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .linha{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center top;
+   }
+  
+/*=========cabecalho========*/
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #048243;
+    box-shadow: 0px 5px 15px #00000048;
+   }
+.foto_position{
+    padding-top: 40px;
+    padding-left: 40px
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 150px;
+    box-shadow: 2px 2px 15px #0000004f;
+}
+.text_white_titulo{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 5px #00000036;
+  }
+  .text_white_subtitle{
+    color:rgb(255, 255, 255); 
+    font-size: 2em; 
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /*=========button cabecalho========*/
+  .style_btn_cab{
+    font-size: 40px;
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    padding-left: 10px;
+  }
+  .btn_cab {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    }
+    .btn_cab:focus {
+        border: none;
+    }
+/*=========infos cabecalho========*/
+    .text_cab_tabela{
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        text-shadow: 1px 1px 3px #0000003f;
+       }
+/*=========corpo principal infos========*/
+.infos_titulo{
+    display: flex;
+    font-size: 36px;
+    color: #048243;
+   }
+.infos {
+    position: relative;
+    padding: 3vw;
+    margin: 5vw;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px #0000001e;
+}
+.text_all{
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 23px;
+    text-shadow: 1px 1px 2px #0000001c;
+   color: rgb(49, 49, 49);
+   text-align: justify;
+  }
+  .marcador_icon{
+    padding-right: 10px;
+  }
+  .progress_bar{
+    background:  #048243;
+    height:25px;
+    border-radius: 5px;
+  }
+  .progress_bar_back{
+    margin-right: 10px;
+    background:  #a3d6c2;
+    height:25px;
+    border-radius: 5px;
+    width: 100px;
+  }
+  .it_a{
+    color: rgba(0, 0, 0, 0.295);
+  }
+  .rodape{
+    background:#32BF84;
+    padding: 40px
+  }
+
+
+  .info1{
+    background-image: url("../img/img3.jpg"); /* The image used */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  /*to mobile=============================================================================================*/
+
+  @media all and (min-width: 15cm) {
+    .linha{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center top;
+    }
+    .linha_cab{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center top;
+    }
+   
+ /*=========cabecalho========*/
+    .foto_position{
+        margin-top: 0;
+        padding-left: 40px
+    }
+   .text_white_titulo{
+     color: white;
+     font-size: 3.5em;
+     text-align: left;
+     text-shadow: 1px 1px 5px #00000036;
+   }
+   .text_white_subtitle{
+     color:rgb(255, 255, 255); 
+     font-size: 2em; 
+     text-align: left; 
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+   /*============corpo===========*/
+   .infos {
+    position: relative;
+    padding: 2vw;
+    margin: 3vw;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px #0000001e;
+}
+   .linha_body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center top;
+  }
+  .tam{
+      max-width: 50vw;
+  }
+  .style_btn_cab{
+    font-size: 40px;
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    padding-left: 80px;
+  }
+  }
