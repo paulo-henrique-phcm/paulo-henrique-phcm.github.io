@@ -7,7 +7,7 @@ body{
     font-weight: 300; 
     box-sizing: border-box; 
     font-family: 'Rubik', sans-serif;
-    background-image: linear-gradient(to right, #400674, #22073a);
+    background-image: linear-gradient(to right, #370875, #1e0535);
 }
 /*=========alinhamentos========*/
 .coluna{
@@ -48,7 +48,7 @@ body{
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(to bottom right, #3a0569, #0e021b);
+    background-image: linear-gradient(to bottom right,  #370875, #1e0535);
     box-shadow: 0px 5px 15px #00000048;
    }
 .foto_position{
@@ -63,14 +63,14 @@ body{
     box-shadow: 2px 2px 15px #0000004f;
 }
 .text_white_titulo{
-    color: white;
+    color: #00eb84;
     font-size: 3em;
     text-align: center;
     text-shadow: 1px 1px 5px #00000036;
   }
   .text_white_subtitle{
-    color: #00eb84; 
-    font-size: 2em; 
+    color: #ffffff; 
+    font-size: 1.8em;
     text-align: center; 
     padding-top: 30px;
     padding-bottom: 30px;
@@ -78,7 +78,7 @@ body{
   /*=========button cabecalho========*/
   .style_btn_cab{
     font-size: 40px;
-    color: #00eb84; 
+    color: #ffffff; 
     padding: 10px
   }
   .btn_cab {
@@ -94,7 +94,7 @@ body{
 /*=========infos cabecalho========*/
     .text_cab_tabela{
         font-size: 22px;
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         text-align: left;
         text-shadow: 1px 1px 3px #0000003f;
        }
@@ -170,14 +170,14 @@ body{
         padding-left: 40px
     }
    .text_white_titulo{
-     color: white;
+     color: #00eb84;
      font-size: 3.5em;
      text-align: left;
      text-shadow: 1px 1px 5px #00000036;
    }
    .text_white_subtitle{
-     color: #00eb84; 
-     font-size: 2em; 
+     color: #ffffff; 
+     font-size: 1.8em; 
      text-align: left; 
      padding-top: 30px;
      padding-bottom: 30px;
