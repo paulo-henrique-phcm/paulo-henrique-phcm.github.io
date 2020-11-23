@@ -1,0 +1,200 @@
+body{  
+    margin:0; 
+    padding:0; 
+    font-size: 100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(to right, #2a004f, #22073a);
+}
+/*=========alinhamentos========*/
+.coluna{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center top;
+    align-items: center top;
+   }
+   .container_cab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    padding-left: 3vw;
+   }
+   
+   .linha_cab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .linha{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center top;
+   }
+  
+/*=========cabecalho========*/
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, #2a004f, #0e021b);
+    box-shadow: 0px 5px 15px #00000048;
+   }
+.foto_position{
+    margin-top: 40px;
+    padding-left: 0px
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 150px;
+    box-shadow: 2px 2px 15px #0000004f;
+}
+.text_white_titulo{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 5px #00000036;
+  }
+  .text_white_subtitle{
+    color: #00eb84; 
+    font-size: 2em; 
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /*=========button cabecalho========*/
+  .style_btn_cab{
+    font-size: 40px;
+    color: #00eb84; 
+    padding: 10px
+  }
+  .btn_cab {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    }
+    .btn_cab:focus {
+        border: none;
+    }
+/*=========infos cabecalho========*/
+    .text_cab_tabela{
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        text-shadow: 1px 1px 3px #0000003f;
+       }
+/*=========corpo principal infos========*/
+.infos_titulo{
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: #00eb84;
+    text-align: center;
+   }
+.infos {
+    position: relative;
+    padding-top: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 60px;
+    background: none;
+}
+.text_all{
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #00000009;
+   color: rgb(255, 255, 255);
+   text-align: justify;
+  }
+  .marcador_icon{
+    padding-right: 10px;
+  }
+  .progress_bar{
+    background: #00eb84;
+    height:25px;
+    border-radius: 5px;
+  }
+  .progress_bar_back{
+    margin-right: 10px;
+    background:  #719b89;
+    height:25px;
+    border-radius: 5px;
+    width: 100px;
+  }
+  .it_a{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .rodape{
+    background: white;
+    padding: 40px
+  }
+  .descricao_infos{
+    font-size: 20px; color: #00eb84;
+  }
+  /*to mobile=============================================================================================*/
+
+  @media all and (min-width: 25cm) {
+    .linha{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center top;
+    }
+    .linha_cab{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center top;
+    }
+   
+ /*=========cabecalho========*/
+    .foto_position{
+        margin-top: 0;
+        padding-left: 40px
+    }
+   .text_white_titulo{
+     color: white;
+     font-size: 3.5em;
+     text-align: left;
+     text-shadow: 1px 1px 5px #00000036;
+   }
+   .text_white_subtitle{
+     color: #00eb84; 
+     font-size: 2em; 
+     text-align: left; 
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+   /*============corpo===========*/
+   .infos {
+    position: relative;
+    padding-top: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background: none;
+}
+   .linha_body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center top;
+  }
+  }
