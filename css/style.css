@@ -7,7 +7,7 @@ body{
     font-weight: 300; 
     box-sizing: border-box; 
     font-family: 'Rubik', sans-serif;
-    background-image: linear-gradient(to right, #370875, #1e0535);
+    background-image: linear-gradient(to right, #1e1e3b, #252527);
 }
 /*=========alinhamentos========*/
 .coluna{
@@ -38,7 +38,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center top;
+    align-items: center;
    }
   
 /*=========cabecalho========*/
@@ -48,7 +48,7 @@ body{
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(to bottom right,  #370875, #1e0535);
+    background-image: linear-gradient(to bottom right, #191931, #232325);
     box-shadow: 0px 5px 15px #00000048;
    }
 .foto_position{
@@ -91,6 +91,23 @@ body{
     .btn_cab:focus {
         border: none;
     }
+
+    .btn_curriculo{
+      margin:5px;
+      padding:10px;
+      border: none;
+      outline: none;
+      background: #e37933;
+      border-radius: 25px;
+
+      font-weight: bold;
+      text-decoration:none; 
+      color: #ffffff; 
+      font-size: 20px;
+    }
+    .btn_curriculo:focus {
+      border: none;
+  }
 /*=========infos cabecalho========*/
     .text_cab_tabela{
         font-size: 22px;
@@ -99,6 +116,11 @@ body{
         text-shadow: 1px 1px 3px #0000003f;
        }
 /*=========corpo principal infos========*/
+.icone_flutuante{
+  padding: 40px;
+  color: #e37933;
+  font-size: 70px;
+}
 .infos_titulo{
     padding-bottom: 30px;
     font-size: 40px;
