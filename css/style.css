@@ -1,13 +1,13 @@
 body{  
     margin:0; 
     padding:0; 
-    font-size: 100%; 
+    font-size: 100%;
     border: none; 
     outline: none; 
     font-weight: 300; 
     box-sizing: border-box; 
     font-family: 'Rubik', sans-serif;
-    background-image: linear-gradient(to right, #1e1e3b, #252527);
+    background-image: linear-gradient(to right, #1a1a33, #1f1f25);
 }
 /*=========alinhamentos========*/
 .coluna{
@@ -48,12 +48,11 @@ body{
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(to bottom right, #191931, #232325);
-    box-shadow: 0px 5px 15px #00000048;
+    background-image: linear-gradient(to bottom right, #131330, #1d1d27);
+    box-shadow: 0px 0px 15px #00000048;
    }
 .foto_position{
-    margin-top: 40px;
-    padding-left: 0px
+    padding-top: 40px
 }
 .foto{
     width: 300px;
@@ -63,14 +62,14 @@ body{
     box-shadow: 2px 2px 15px #0000004f;
 }
 .text_white_titulo{
-    color: #00eb84;
+    color: white;
     font-size: 3em;
     text-align: center;
     text-shadow: 1px 1px 5px #00000036;
   }
   .text_white_subtitle{
-    color: #ffffff; 
-    font-size: 1.8em;
+    color: #00eb84; 
+    font-size: 24px;
     text-align: center; 
     padding-top: 30px;
     padding-bottom: 30px;
@@ -79,7 +78,8 @@ body{
   .style_btn_cab{
     font-size: 40px;
     color: #ffffff; 
-    padding: 10px
+    padding: 15px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.349);
   }
   .btn_cab {
     position: relative;
@@ -93,12 +93,13 @@ body{
     }
 
     .btn_curriculo{
-      margin:5px;
+      margin:20px;
       padding:10px;
       border: none;
       outline: none;
       background: #e37933;
       border-radius: 25px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.151);
 
       font-weight: bold;
       text-decoration:none; 
@@ -120,11 +121,12 @@ body{
   padding: 40px;
   color: #e37933;
   font-size: 70px;
+  text-shadow: 0px 0px 5px #7a66573f;
 }
 .infos_titulo{
     padding-bottom: 30px;
     font-size: 40px;
-    color: #00eb84;
+    color: white;
     text-align: center;
    }
 .infos {
@@ -171,7 +173,7 @@ body{
   }
   /*to mobile=============================================================================================*/
 
-  @media all and (min-width: 25cm) {
+  @media all and (min-width: 20cm) {
     .linha{
      position: relative;
      display: flex;
@@ -189,17 +191,17 @@ body{
    
  /*=========cabecalho========*/
     .foto_position{
-        margin-top: 0;
-        padding-left: 40px
+        padding-left: 10px;
     }
    .text_white_titulo{
-     color: #00eb84;
+     padding-top: 20px;
+     color: white;
      font-size: 3.5em;
      text-align: left;
      text-shadow: 1px 1px 5px #00000036;
    }
    .text_white_subtitle{
-     color: #ffffff; 
+     color: #00eb84; 
      font-size: 1.8em; 
      text-align: left; 
      padding-top: 30px;
