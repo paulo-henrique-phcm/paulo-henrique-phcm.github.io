@@ -42,13 +42,25 @@ body{
    }
   
 /*=========cabecalho========*/
-
+/*
 .cabecalho {
     position: relative;
     width: 100%;
     padding: 0px;
     margin: 0px;
     background-image: linear-gradient(to bottom right, #1d1d42, #1d1d27);
+    box-shadow: 0px 0px 15px #00000048;
+   }
+*/
+.cabecalho {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/fundo-cab.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0px 0px 15px #00000048;
    }
 .foto_position{
