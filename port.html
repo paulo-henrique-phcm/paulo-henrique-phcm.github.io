@@ -5,32 +5,34 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet"> <link href="./style.css" rel="stylesheet" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./css/style_port.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
         <title>Paulo Henrique - Currículo</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     </head>
     <body>
-        <div class=cabecalho>
-            <div class='coluna'>
-                <div class='linha'>
-                    <a href='index.html' class='btn-cab'>
-                        <i class="fas fa-arrow-left style_btn_cab"></i>
-                    </a>
-                    <a href='https://github.com/paulo-henrique-phcm' target="_blank" class='btn-cab'>
-                        <i class="fab fa-github style_btn_cab"></i>
-                    </a>
-                    <a href='https://drive.google.com/open?id=17V_P0IzSX0y1KfzxsSzO2EgW1XSt7QgR ' target="_blank" class='btn-cab'>
-                        <i class="far fa-id-card style_btn_cab"></i>
-                    </a>
-                        <a href='http://www.linkedin.com/in/paulo-henrique-cassiano-machado' target="_blank" class='btn-cab'>
-                        <i class="fab fa-linkedin-in style_btn_cab" ></i>
-                    </a>
-                    <button class="btn_cab" id='button_mail_show' onclick="alert('Meu E-mail: <    paulo.phcm98@gmail.com    >')">
-                        <i class="fas fa-envelope style_btn_cab" ></i>
-                    </button>
-                    <a href='https://api.whatsapp.com/send?phone=5565984632078' target="_blank" class='btn-cab'>
-                        <i class="fab fa-whatsapp style_btn_cab"></i>
-                    </a>
+        <div class="cabecalho linha_cab" style="min-height: 200px;">
+            <div class='coluna foto_position'>
+                <div class='coluna'>
+                    <div style='padding-top: 20px; padding-bottom: 40px;'>
+                        <div class='text_white_titulo'>Paulo Henrique Cassiano Machado</div>
+                    </div>
+                    <div class='linha' style="padding-bottom: 40px;">
+                        <a href='./index.html' class='btn_cab'>
+                            <i class="fas fa-home style_btn_cab" style="color: #e37933;"></i>
+                        </a>
+                        <a href='https://github.com/paulo-henrique-phcm' target="_blank" class='btn_cab'>
+                            <i class="fab fa-github style_btn_cab"></i>
+                        </a>
+                            <a href='http://www.linkedin.com/in/paulo-henrique-cassiano-machado' target="_blank" class='btn_cab'>
+                            <i class="fab fa-linkedin-in style_btn_cab" ></i>
+                        </a>
+                        <button class="btn_cab" id='button_mail_show' onclick="alert('Meu E-mail: paulo.phcm98@gmail.com (CONSTA NO RODAPÉ)')">
+                            <i class="fas fa-envelope style_btn_cab" ></i>
+                        </button>
+                        <a href='https://api.whatsapp.com/send?phone=5565984632078' target="_blank" class='btn_cab'>
+                            <i class="fab fa-whatsapp style_btn_cab"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -38,10 +40,24 @@
 
 
         <div class='infos'>
-            futuro desenvolvimento
-            <div class='info1'>
-                
-            </div>
+            <div class='linha'><i class="fas fa-puzzle-piece icone_flutuante"></i></div>  <!--icone flutuante-->
+            <div class='infos_titulo'><b>Alguns Projetos, Realizações e Orgulhos:</b></div></br>
+            <table style="width:100%">
+                <tr class='text_all' >
+                    <th><img class='port_apre' src='./img/todo-apre.png' alt='Tenho'/></th>
+                    <td style="padding: 20px;"><a style="color: white" href="./JavaScript-ToDo-List/index.html" target="_blank">
+                        Minha primeira ToDo-List com JavaScript
+                    </a><br> 
+                        <a class='descricao_infos'>
+                            Com intuido te aprender JavaScript e conceitos de NodeJs resolvi implementar uma lista de afazeres simples, sem banco de dados.<br>
+                            O sistema de hospedagem do GitHub suporta html css e Js, portanto clique e veja o conceito simples de inserção, confirmação e remoção de uma tarefa da lista.
+                            <br>Veja também o <a href="https://github.com/paulo-henrique-phcm/JavaScript-ToDo-List" target="_blank" style="color: white">código fonte no Git.</a>
+                        </a>
+                    </td>
+                </tr>
+
+            </table>
+            <p class="text_white_titulo">Página está em desenvolvimento!</p>
         </div>
 
 
@@ -52,13 +68,15 @@
 
 
 
-        <div class='rodape' style="box-shadow: 2px 2px 15px #0000001e;">
-            <div class='text_all coluna' style='color:white; text-align: center; font-size: 18px;'>
+        <div class='rodape' style="box-shadow: 0px 0px 10px #12121d81 inset">
+            <div class='text_all coluna' style='color:#2a004f; text-align: center; font-size: 18px; '>
                 <a>Novas atualizações em breve.</a><br>
                 <b>Hospedado em: https://github.com/paulo-henrique-phcm/paulo-henrique-phcm.github.io</b><br>
+                <a>Contato:</a><br>
+                <a>+55 (65) 98463 2078</a><br>
                 <a>paulo.phcm98@gmail.com</a><br>
                 <a>paulohenriquephcm@hotmail.com</a><br>
-                <a>+55 (65) 9 8463 2078</a><br>
+                
             </div>
         </div>
     </body>

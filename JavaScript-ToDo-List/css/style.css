@@ -1,0 +1,78 @@
+.red{
+    color: red;
+}
+
+
+
+
+
+
+
+/* todo list */
+body{
+    margin: 0;
+    padding :0;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    background-color: rgb(100, 112, 124);
+}
+#input{
+    width: 75vw;
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+}
+span{
+    padding:7px;
+
+}
+.btnAdd{
+    margin-top:10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(126, 42, 31);
+    border-radius: 10px;
+}
+.btnDel{
+    float: right;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(126, 42, 31);
+    border-radius: 10px;
+}
+.btnFeito{
+    margin-right: 10px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(11, 104, 47);
+    border-radius: 10px;
+}
+.btnNFeito{
+    margin-right: 10px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(153, 144, 21);
+    border-radius: 10px;
+}
+
+#minhaLista{
+    font-size: 40px;
+    padding: 20px;
+}
+li{
+    color:rgb(15, 15, 15);
+    background-color: rgb(206, 213, 221);
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
+}
+.liFeito{
+    color:rgba(29, 29, 29, 0.452);
+    text-decoration: inherit;
+}

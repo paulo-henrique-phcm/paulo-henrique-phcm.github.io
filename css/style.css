@@ -183,9 +183,51 @@ body{
   .descricao_infos{
     font-size: 20px; color: #00eb84;
   }
+  /* portfólio =======================================================================================*/
+  .port_apre{
+    width: 0px;
+    height: 0px;
+  }
+  .port_slide {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-image: url("../img/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px #00000048;
+    text-decoration: none; 
+    text-align: center; 
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+  
   /*to mobile=============================================================================================*/
 
   @media all and (min-width: 20cm) {
+    .port_apre{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 1px 2px 10px #0000005d;
+    }
+    .port_slide {
+      position: relative;
+      margin: 0;
+      width: 100%;
+      background-image: url("../img/img4.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0px 0px 15px #00000048;
+      text-decoration: none;
+      padding-top: 150px;
+      padding-bottom: 150px;
+     }
     .linha{
      position: relative;
      display: flex;
