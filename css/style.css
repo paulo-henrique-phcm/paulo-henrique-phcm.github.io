@@ -205,7 +205,9 @@ body{
     padding-right: 0;
    }
     .img_gif_port{
-     width: 80vw;
+     width: 70vw;
+     padding: 0;
+     margin: 0;
    }
   
   /*to mobile=============================================================================================*/
@@ -213,6 +215,8 @@ body{
   @media all and (min-width: 20cm) {
     .img_gif_port{
       width: 60vw;
+      padding: 0;
+      margin: 0;
     }
     .port_apre{
       width: 200px;
