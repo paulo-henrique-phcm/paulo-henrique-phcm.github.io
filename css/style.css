@@ -214,7 +214,7 @@ body{
 
   @media all and (min-width: 20cm) {
     .img_gif_port{
-      width: 60vw;
+      width: 50vw;
       padding: 0;
       margin: 0;
     }
