@@ -205,14 +205,14 @@ body{
     padding-right: 0;
    }
     .img_gif_port{
-     width: 70vw;
+     width: 90vw;
    }
   
   /*to mobile=============================================================================================*/
 
   @media all and (min-width: 20cm) {
     .img_gif_port{
-      width: 90vw;
+      width: 65vw;
     }
     .port_apre{
       width: 200px;
