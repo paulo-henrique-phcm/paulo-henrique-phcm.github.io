@@ -199,15 +199,21 @@ body{
     box-shadow: 0px 0px 15px #00000048;
     text-decoration: none; 
     text-align: center; 
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
+   }
+    .img_gif_port{
+     width: 70vw;
    }
   
   /*to mobile=============================================================================================*/
 
   @media all and (min-width: 20cm) {
+    .img_gif_port{
+      width: 90vw;
+    }
     .port_apre{
       width: 200px;
       height: 200px;
@@ -233,8 +239,8 @@ body{
       background-repeat: no-repeat;
       box-shadow: 0px 0px 15px #00000048;
       text-decoration: none;
-      padding-top: 150px;
-      padding-bottom: 150px;
+      padding-top: 40px;
+      padding-bottom: 40px;
       padding-left: 0;
       padding-right: 0;
      }
