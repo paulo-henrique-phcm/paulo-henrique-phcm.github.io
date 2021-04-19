@@ -93,6 +93,10 @@ body{
     padding: 15px;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.349);
   }
+  .style_btn_cab:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+  }
   .btn_cab {
     position: relative;
     border: none;
