@@ -135,6 +135,10 @@ body{
   font-size: 70px;
   text-shadow: 0px 0px 5px #7a66573f;
 }
+.icone_flutuante:hover{
+  transition: transform .2s;
+  transform: scale(1.2);
+}
 .infos_titulo{
     padding-bottom: 30px;
     font-size: 40px;
@@ -159,6 +163,10 @@ body{
   }
   .marcador_icon{
     padding-right: 10px;
+  }
+  .marcador_icon:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
   }
   .progress_bar{
     background: #00eb84;
