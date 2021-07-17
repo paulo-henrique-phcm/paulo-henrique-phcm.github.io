@@ -309,3 +309,91 @@ body{
     align-items: center top;
   }
   }
+
+
+
+
+
+
+
+
+  .box{
+
+    position:fixed;
+    z-index: 10;
+    margin-left: 30vw;
+    margin-top: 10vh;
+
+    visibility:hidden;
+
+
+    animation: entrada ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    border-radius: 50%;
+
+    width: calc(min(80vw, 80vh));
+    height: calc(min(80vw, 80vh));
+    background-color: #323183;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+
+    animation-fill-mode: forwards;
+    /* transition-timing-function: ease-in-out; */
+  }
+  .texto{
+      text-shadow: #1a194e6b 1px 1px 2px;
+      position: absolute;
+    color: white;
+    font-size: calc(min(10vw, 10vh));
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility:hidden;
+
+    animation: entradaTex ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+
+    animation-fill-mode: forwards;
+  }
+
+  .iconeCopl{
+    animation: entradaCopl ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+
+    visibility:hidden;
+
+    width: calc(min(60vw, 60vh));
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes entrada{
+      0% {transform: scale(0); opacity: 0; visibility:visible;}
+      15%{transform: scale(100%); opacity: 1; box-shadow: #1a194e71 6px 6px 30px;}
+      35%{transform: scale(100%); opacity: 1; background-color: #323183;}
+      50%{transform: scale(95%); opacity: 1; background-color: #ffffffe8;}
+      90%{transform: scale(95%); opacity: 1;}
+      100%{transform: scale(85%); opacity: 0; box-shadow: rgba(255, 255, 255, 0.336) 5px 5px 20px; background-color: #32318300; visibility:collapse; display: none;}
+  }
+  @keyframes entradaTex{
+    0%{ visibility:visible;}
+      40%{opacity: 1; transform: scale(140%);}
+      48%{opacity: 0; transform: scale(140%);}
+      100%{opacity: 0; visibility:collapse; display: none;}
+  }
+  @keyframes entradaCopl{
+      0%{transform: scale(105%); opacity: 0; visibility:visible;}
+      38%{transform: scale(105%); opacity: 0;}
+      48%{transform: scale(100%); opacity: 1;}
+      70%{transform: scale(100%); opacity: 1;}
+      100%{transform: scale(95%); opacity: 1; visibility:collapse; display: none;}
+  }
+    
