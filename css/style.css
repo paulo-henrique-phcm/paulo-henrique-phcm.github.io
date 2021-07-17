@@ -221,6 +221,12 @@ body{
      padding: 0;
      margin: 0;
    }
+
+.box{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vw;
+}
   
   /*to mobile=============================================================================================*/
 
@@ -308,21 +314,22 @@ body{
     justify-content: center;
     align-items: center top;
   }
-  }
-
-
-
-
-
-
-
-
-  .box{
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .box{
 
     position:fixed;
     z-index: 10;
     margin-left: 30vw;
-    margin-top: 10vh;
+    margin-top: auto;
 
     visibility:hidden;
 
@@ -332,8 +339,8 @@ body{
     animation-delay: 1.5s;
     border-radius: 50%;
 
-    width: calc(min(80vw, 80vh));
-    height: calc(min(80vw, 80vh));
+    width: 80vh;
+    height: 80vh;
     background-color: #323183;
 
     display: flex;
@@ -396,4 +403,14 @@ body{
       70%{transform: scale(100%); opacity: 1;}
       100%{transform: scale(95%); opacity: 1; visibility:collapse; display: none;}
   }
+  }
+
+
+
+
+
+
+
+
+  
     
