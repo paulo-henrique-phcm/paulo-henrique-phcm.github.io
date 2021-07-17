@@ -371,7 +371,7 @@ body{
 
     visibility:hidden;
 
-    width: calc(min(60vw, 60vh));
+    width: calc(min(25vw, 25vh));
     animation-fill-mode: forwards;
   }
 
