@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Paulo Henrique C. M.</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top" title="Clique para voltar ao topo da página!">Paulo H. - Python
+                Developer</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio-conteudo-menu" onclick="openCollapse('#portfolio-conteudo')">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#sobre-conteudo-menu" onclick="openCollapse('#sobre-conteudo')">Sobre
+                            Mim</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" onclick="openCollapse('#formacao-cursos')"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded" href="#formacao-cursos-menu">Formação</a></li>
+
+                    <li class="nav-item mx-0 mx-lg-1" onclick="openCollapse('#habilidades')"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded" href="#habilidades-menu">Habilidades</a></li>
+
+                    <li class="nav-item mx-0 mx-lg-1" onclick="openCollapse('#experiencias')"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded" href="#experiencias-menu">Experiências</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center d-flex">
+        <div class="container d-flex align-items-center flex-column">
+            <img class="foto" src="assets/img/foto.jpg" alt="..." />
+
+            <!-- Masthead Avatar Image-->
+            <!-- Masthead Heading-->
+
+            <!-- Icon Divider-->
+
+            <!-- Masthead Subheading-->
+            <div class="divider-light">
+                <p>
+                <h1 class="masthead-heading mb-0">Paulo Henrique Cassiano Machado</h1>
+                </p>
+                <!-- <div class="divider-custom divider-light"> -->
+                <!-- <div class="divider-custom-line"></div> -->
+                <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
+                <!-- <div class="divider-custom-line"></div> -->
+                <!-- </div> -->
+                <p class="masthead-subheading font-weight-light mb-0"><b>PYTHON</b> RPA DEVELOPER</p>
+                <p class="masthead-subheading font-weight-light mb-0">Engenheiro de Computação - <b>UFMT</b></p>
+                <div class='coluna'>
+                    <div class='linha'>
+                        <a href='https://github.com/paulo-henrique-phcm' target="_blank" class='btn-cab'
+                            title="Veja meu repositório GitHub">
+                            <i class="fab fa-github style_btn_cab"></i>
+                        </a>
+                        <a href='http://www.linkedin.com/in/paulo-henrique-cassiano-machado' target="_blank"
+                            class='btn-cab' title="Vanha para meu Linkedin, vamos nos conhecer melhor.">
+                            <i class="fab fa-linkedin-in style_btn_cab"></i>
+                        </a>
+                        <button class="btn_cab" id='button_mail_show'
+                            onclick="alert('Meu E-mail: paulo.phcm98@gmail.com (CONSTA NO RODAPÉ)')"
+                            title="Obtenha meu e-mail.">
+                            <i class="fas fa-envelope style_btn_cab"></i>
+                        </button>
+                        <a href='https://api.whatsapp.com/send?phone=5565984632078' target="_blank" class='btn-cab'>
+                            <i class="fab fa-whatsapp style_btn_cab"
+                                title="Vamos bater um papo! me chame no WhatsApp."></i>
+                        </a>
+                    </div>
+                    <div class='linha'>
+                        <a href='https://drive.google.com/open?id=17V_P0IzSX0y1KfzxsSzO2EgW1XSt7QgR' target="_blank"
+                            class='btn_curriculo' title="Baixe uma versão pdf do meu currículo.">
+                            <!--<i class="far fa-id-card style_btn_cab" style='color: #e37933'></i>-->
+                            Currículo PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- PORTFOLIO -->
+    <section class="page-section portfolio" id="portfolio-conteudo-menu">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="bloco d-flex align-items-center justify-content-center" style="cursor: pointer;"
+                onclick="toggleCollapse('#portfolio-conteudo')">
+                <h2 class="page-section-heading text-center text-secondary mb-0">Portfolio</h2>
+                <i class="fa-solid fa-circle-plus seta-flutuante align-self-center" title="Clique para expandir"></i>
+            </div>
+            <div id="portfolio-conteudo" class="collapse-itens">
+
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    Python - MediaPipe
+                                </div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://github.com/paulo-henrique-phcm/rotacao_vetorial_controle_de_botao_rotativo_usando_mediapipe_python/blob/main/gif_video_teste_mediapipe.gif?raw=true"
+                                loop="infinite/">
+                            <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    ToDo-List Simples
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/todo-apre.PNG" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    Simulação de particulas
+                                </div>
+                            </div>
+                            <img class="img-fluid" src='./simulacao_particulas/exemplo_particulas.png' alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    Projetos com Docker
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/docker.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div> -->
+                    <!-- Portfolio Item 6-->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SOBRE MIM -->
+    <section class="page-section bg-primary text-white mb-0" id="sobre-conteudo-menu">
+
+        <div class="container">
+            <!-- About Section Heading-->
+
+            <div class="bloco d-flex align-items-center justify-content-center" style="cursor: pointer;"
+                onclick="toggleCollapse('#sobre-conteudo')">
+                <h2 class="page-section-heading text-center text-white">Sobre Mim</h2>
+                <i class="fa-solid fa-circle-plus seta-flutuante align-self-center" title="Clique para expandir"></i>
+            </div>
+            <div id="sobre-conteudo" class="collapse-itens">
+                <div class="text-center">
+                    <i class="icones-habilidades fa-brands fa-python" style="font-size: 6rem;"></i>
+                    <!-- <i class="icones-habilidades" style="font-size: 4rem;"><b>C#</b></i> -->
+                    <h1 class='lead'> Engenheiro de Computação | Apaixonado por Engenharia e Matemática Aplicadas |
+                        Explorando o Potencial da Tecnologia</h1>
+                </div>
+
+                <!-- About Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-user"></i> Sobre Mim</h4>
+                            Desde minha juventude, sou movido pela
+                            curiosidade de entender o mundo à
+                            minha volta. Essa paixão me levou a seguir o caminho da engenharia. Atualmente, sou formado
+                            em Engenharia de Computação pela UFMT e estou comprometido em aplicar meu conhecimento para
+                            resolver desafios do mundo real.
+                        </div>
+
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-check-double"></i> Experiência</h4>
+                            Programação: Sou proficiente em Python,
+                            que utilizo desde a faculdade,
+                            RPA (Automação de Processos Robóticos), Django e outras tecnologias. Minha sede por
+                            conhecimento e criatividade para resolver problemas usando tecnologias diversas são o
+                            combustível que me levam a um aprendizado profundo e contínuo, permitindo a criação de
+                            soluções versáteis, escaláveis e robustas.
+                        </div>
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-gears"></i> Projetos de Engenharia</h4>
+                            Participei de projetos que abrangem desde automação predial móvel
+                            até a resolução de problemas utilizando redes neurais artificiais. Já desenvolvi API’s,
+                            extensões para VsCode e outras soluções que são usadas por clientes até hoje.
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-graduation-cap"></i> Interesse Acadêmico</h4>
+                            Estou comprometido em aprofundar meu conhecimento em matemática
+                            aplicada, topologia e uso de grafos para otimizar processos do mundo real. Busco
+                            desenvolvimento avançado em Python seguindo as melhores práticas e atuo no desenvolvimento
+                            web com Django, Flask, Dash e outras tecnologias que despertem meu interesse e sejam
+                            necessárias.
+                        </div>
+
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-heart"></i> Paixões</h4>
+                            Além da tecnologia, sou fascinado por resultados de pesquisa complexos e profundos
+                            encontrados
+                            em fóruns em inglês. Estou empenhado em melhorar meu inglês para acessar conhecimento mais
+                            abrangente.
+                        </div>
+                        <div class="text_all">
+                            <h4><i class="icones-habilidades fa-solid fa-arrow-trend-up"></i> Crescer!!!</h4>
+                            Desafios que, vez ou outra, me colocam frente à necessidade de ler artigos e documentações
+                            sobre alguma tecnologia moderna para resolver problemas, me fascinam, pois sei que depois
+                            terei uma bagagem um pouco maior horizontalmente, bastando focar em aumentá-la também
+                            verticalmente.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FORMAÇÃO CURSOS -->
+    <section class="page-section portfolio" id="formacao-cursos-menu" style="width: 100%;">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="bloco d-flex align-items-center justify-content-center" style="cursor: pointer;"
+                onclick="toggleCollapse('#formacao-cursos')">
+                <h2 class="page-section-heading text-center text-secondary mb-0">Formação e alguns cursos</h2>
+                <i class="fa-solid fa-circle-plus seta-flutuante align-self-center" title="Clique para expandir"></i>
+            </div>
+            <div id="formacao-cursos" class="collapse-itens">
+                <table style="width:100%" class="">
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td>
+                            <a>Graduado em Engenharia da Computação pela UFMT</a>
+                            <br>
+                            <a class='descricao_infos'>Formado em 08/2022</a>
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td>
+                            <a>Contabilidade para não contadores</a>
+                            <br>
+                            <a class='descricao_infos'>Curso de 4 horas realizado pela CEFIS</a>
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td>
+                            <a>Técnico em Informática Integrado ao Ensino Médio</a>
+                            <br>
+                            <a class='descricao_infos'>Escola Estadual Dr. Artur Antunes Maciel</a>
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td>
+                            <a>AutoCAD (para arquitetura) e (mecânico)</a>
+                            <br>
+                            <a class='descricao_infos'>Photoshop (básico ao avançado)</a>
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td>
+                            <a>Inglês nível1 - UFMT</a>
+                            <br>
+                            <a class='descricao_infos'>Estudando atualmente pela Wise Up</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- QUALIFICAÇÕES E HABILIDADES -->
+    <section class="page-section bg-primary text-white mb-0" id="habilidades-menu">
+
+        <div class="container">
+            <!-- About Section Heading-->
+
+            <div class="bloco d-flex align-items-center justify-content-center" style="cursor: pointer;"
+                onclick="toggleCollapse('#habilidades')">
+                <h2 class="page-section-heading text-center text-white">Habilidades e Qualificações Importantes</h2>
+                <i class="fa-solid fa-circle-plus seta-flutuante align-self-center" title="Clique para expandir"></i>
+            </div>
+            <div id="habilidades" class="collapse-itens">
+                <!-- About Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2 title="Qualificações adquiridas e aplicadas Profissionalmente">Profissionais</h2>
+                        <h5 style="color: var(--bs-gray-300);">Qualificações adquiridas e aplicadas Profissionalmente
+                        </h5>
+
+                        <!--Competencias-->
+                        <div class='infos'>
+                            <div class='linha'></div>
+                            <!--subtitulo-->
+                            <table style="width:100%">
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+
+                                        <div class="progress" role="progressbar" aria-label="Example 20px high"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width: 85%"></div>
+                                        </div>
+
+                                    </th>
+
+                                    <td> <i class="icones-habilidades fa-brands fa-python"></i> <b>Python</b> <i
+                                            class='it_a'>(Mais de 2 anos de uso profissional, mais de 5 anos de uso e
+                                            estudo como hobby).
+                                            atualmente ainda em uso profissional no processamento de imagem,
+                                            Machine Learning e principalmente em automações RPA em geral com Selenium e
+                                            outras tecnologias que forem necessárias para facilitar o diadia dos
+                                            clientes e da equipe em geral. </i></td>
+
+                                </tr>
+
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:70%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-linux"></i> <b>Linux</b> <i
+                                            class='it_a'>(Usandoprofissionalmente) Usei também durante a faculdade em
+                                            projetos.</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:70%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-docker"></i> <b>Docker</b> <i
+                                            class='it_a'>(Usando profissionalmente. mais de 2 anos de experiencia)
+                                            Diversas aplicações rodando em produção e na GCP com Cloud Run.</i></td>
+                                </tr>
+
+
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:65%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-js"></i> <b>JavaScript</b> <i
+                                            class='it_a'>(Uso constantemente em projetos que requerem front-end básico,
+                                            tanto profissionais quanto pessoais)
+                                            Já fiz também uma extensão para VsCode usar JS que foi usada por clientes e
+                                            pela equipe de desenvolvimento.</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:65%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-html5"></i> <b>HTML e CSS</b> <i
+                                            class='it_a'>(Usando junto aos projetos profissionais e pessoais citados em
+                                            JS acima)</i></td>
+                                </tr>
+
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:62%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-database"></i> <b>SQL (PostgreSQL)</b>
+                                        <i class='it_a'>(Aperfeiçoando o conhecimento em análises no
+                                            sistma. profissionalmente) </i>
+                                    </td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:50%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-p"></i> <b>Protheus (TOTVS) - ADVPL e
+                                            TL++</b>
+                                        <i class='it_a'>(Usando profissionalmente) Fiz diversos treinamentos para
+                                            desenvolvimento com a linguagem. Fiz diversas soluções de automação para
+                                            serem usadas com Protheus, o que rendeu conhecimento do seu back-end.</i>
+                                    </td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:50%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-file-shield"></i> <b>Treinamento
+                                            LGPD</b> <i class='it_a'>(treinamento inicial em leis de proteção de
+                                            dados no meio profissional)</i></td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 title="Habilidades obtidas por estudos pessoais e/ou Hobby, ou obtidas durante a faculdade">
+                            Pessoais</h2>
+                        <h5 style="color: var(--bs-gray-300);">Habilidades obtidas por estudos pessoais e/ou Hobby, ou
+                            obtidas durante a faculdade</h5>
+
+
+
+                        <table style="width:100%">
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:52%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-brands fa-react"></i> <b>REACT Js </b> <i
+                                        class='it_a'>(estudando em projetos pessoais) Fiz alguns cursos na Udemy por
+                                        curiosodade e achei muito ineressante</i></td>
+                            </tr>
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:50%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-solid fa-map-location-dot"></i> <b>QGIS </b><i
+                                        class='it_a'>(estudando por conta própria) Tenho muita vontade de atuar com
+                                        soluções de todo tipo para o Agro e georreferenciamento</i></td>
+                            </tr>
+
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:35%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades"><b>C#</b></i> <b>C# .Net </b><i
+                                        class='it_a'>(Estudando por conta) Me interessei muito pelas possibilidades de
+                                        aplicações e soluções e por isso estou estudando fortemente a linguagem
+                                        hoje.</i></td>
+                            </tr>
+
+
+
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:35%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades"><b>C++</b></i> <b>C++ </b> <i class='it_a'>(estudos
+                                        acadêmicos Obj.: conhecer a linguagem e conceitos de programação)</i></td>
+                            </tr>
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:32%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades"><b>F</b></i><b>Flutter </b> <i class='it_a'>(Projeto
+                                        acadêmico)</i></td>
+                            </tr>
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:28%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-brands fa-angular"></i> <b>Angular </b> <i
+                                        class='it_a'>(buscando aprender para evoluir) já fiz manutenção numa aplicação
+                                        feita com a tecnologia, e achei interessante.</i></td>
+                            </tr>
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:25%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-brands fa-java"></i> <b>Java </b> <i
+                                        class='it_a'>(estudos acadêmicos Obj.: conhecer a linguagem e conceitos de
+                                        programação)</i></td>
+                            </tr>
+
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:100%"></div>
+                                    </div>
+                                </th>
+                                <td>A persistência para propor soluções usando estas e outras ferramentas é o mais
+                                    belo propósito da engenharia!</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+                <br>
+                <h2 class="text-center" title="Experiencias que ja tive durante a vida">Outras Habilidades Antigas
+                </h2>
+
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h3 title="Habilidades obtidas profissionalmente no início da minha carreira.">
+                            Profissionais</h3>
+                        <!--Competencias-->
+                        <div class='infos'>
+                            <div class='linha'></div>
+                            <!--subtitulo-->
+                            <table style="width:100%">
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:70%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-cubes"></i> <b>Visão espacial</b> <i
+                                            class='it_a'>(noções de desenho com representatividade espacial, á mão livre
+                                            ou com softwares, realista ou não.)</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:60%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-a"></i> <b>AutoCAD</b> <i
+                                            class='it_a'>(experiência profissional em projetos arquitetônicos)</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:55%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-solid fa-code"></i> <b>GeneXus</b> <i
+                                            class='it_a'>(Usado profissionalmente por 1,5 anos) Fui responsável técnico
+                                            por desenvolver um sistema para a prefeitura de Água Boa - MT</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:55%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-codepen"></i> <b>SketchUP</b> <i
+                                            class='it_a'>(experiência profissional em projetos arquitetônicos) Fiz
+                                            diversos modelos e apresentações 3D usando os projetos arquietonicos do
+                                            AutoCad.</i></td>
+                                </tr>
+                                <tr class='text_all'>
+                                    <th class="indicador-qualificacao">
+                                        <div class="progress" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                                style="width:35%"></div>
+                                        </div>
+                                    </th>
+                                    <td><i class="icones-habilidades fa-brands fa-wordpress"></i> <b>Wordpress</b> <i
+                                            class='it_a'>(Usado profissionalmente em período de estágio)</i>
+                                    </td>
+                                </tr>
+
+
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 title="Habilidades obtidas por estudos pessoais e/ou Hobby, ou obtidas durante a faculdade">
+                            Pessoais</h3>
+
+
+                        <table style="width:100%">
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:60%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-solid fa-p"></i> <b>Photoshop</b> <i
+                                        class='it_a'>(feitos
+                                        pessoais e
+                                        profissionais)</i></td>
+                            </tr>
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:40%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-brands fa-php"></i> <b>PHP </b> <i
+                                        class='it_a'>(estudando em projetos pessoais atualmente)</i></td>
+                            </tr>
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:40%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-solid fa-pencil"></i> <b>CorelDRAW</b> <i
+                                        class='it_a'>(feitos pessoais Obj.:
+                                        conhecer a ferramenta)</i></td>
+                            </tr>
+                            <tr class='text_all'>
+                                <th class="indicador-qualificacao">
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div title="Nível de conhecimento na área" class="progress-bar bg-info"
+                                            style="width:35%"></div>
+                                    </div>
+                                </th>
+                                <td><i class="icones-habilidades fa-solid fa-cube"></i> <b>3ds Max</b> <i
+                                        class='it_a'>(estudos
+                                        pessoais antigos
+                                        Obj.: conhecer a
+                                        ferramenta)</i></td>
+                            </tr>
+
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- EXPERIÊNCIAS -->
+    <section class="page-section portfolio" id="experiencias-menu" style="width: 100%;">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="bloco d-flex align-items-center justify-content-center" style="cursor: pointer;"
+                onclick="toggleCollapse('#experiencias')">
+                <h2 class="page-section-heading text-center text-secondary mb-0">Formação e alguns cursos</h2>
+                <i class="fa-solid fa-circle-plus seta-flutuante align-self-center" title="Clique para expandir"></i>
+            </div>
+            <div id="experiencias" class="collapse-itens">
+
+
+                <table style="width:100%" class="">
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [04/2022 - ...] &nbsp;&nbsp; Desenvolvedor Jr. PYTHON e Protheus<br>
+                            <b class='descricao_infos'>
+                                OneInsight
+
+                            </b><br>
+                            <p>
+                                Análise e Desenvolvimento de soluções ERP com Protheus TOTVS - ADVPL e TL++.
+                                Desenvolvendo principalmente (Robotic process automation) com Python e selenium para
+                                solucionar problemas, melhorar e agilizar processos das empresas cliente. Aplicando as
+                                soluções em container utilizando Docker, de modo a estarem interligadas para prover
+                                soluções modulares.
+                                Usando, também, outras tecnologias que forem necessárias como angular, flask, React Js,
+                                Artificial neural network, dentre outros para o agronegócio.
+                            </p>
+
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+
+                        <td>COPLAN -Consultoria e Planejamento Eireli, Soluções em Gestão Pública<br>
+                            </br>
+
+                            <b class='descricao_infos'>
+                                ● &nbsp; [09/2021 - 08/2022] &nbsp;&nbsp; passando para Analista de Programação Trainee
+                                e em seguida Desenvolvedor Jr.
+                            </b>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp; Desenvolvimento web para gestão pública em GeneXus</br>
+                                &nbsp;&nbsp;&nbsp;&nbsp; Competências: Genexus · Desenvolvimento web · Planejamento de
+                                projetos · JavaScript · HTML5 · SQL
+                            </p>
+
+                            </br>
+
+                            <b class='descricao_infos'>
+                                ● &nbsp; [05/2021 - 09/2021] &nbsp;&nbsp; Estágio Desenvolvimento Genexus
+                            </b>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp; Programação Web em plataforma Genexus; Soluções e análises
+                                tecnológicas voltadas á gestão pública.
+                            </p>
+
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [12/2020 - 05/2021] &nbsp;&nbsp; Estágio Web Designer<br>
+                            <b class='descricao_infos'>
+                                Entre Aspas Soluções
+
+                            </b><br>
+                            <p>
+                                Funções de Web designer
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [2015 - 2018] &nbsp;&nbsp; Estágio em Escritório de Engenharia Civil<br>
+                            <b class='descricao_infos'>
+                                Escala Engenharia (Engenheiro autônomo)
+
+                            </b><br>
+                            <p>
+                                Função: Cadista, auxiliar de projetos, atendimento ao público e acompanhamento em visita
+                                á obras
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [2018 - 2019] &nbsp;&nbsp; Projetos de inteligência artificial com Redes Neurais<br>
+                            <b class='descricao_infos'>
+                                UFMT Campus Várzea Grande
+
+                            </b><br>
+                            <p>
+                                Atividades Acadêmicas com redes neurais artificiais.
+                                Detecção de padrôes, reconhecimento facial implementado em uma sala, análise de digitais
+                                e analise dos algoritmos tal como seus resultados,
+                                adquirindo experiências de Data Science com supervisão do professor.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [2019 - 2021] &nbsp;&nbsp; Projeto de Automação Predial<br>
+                            <b class='descricao_infos'>
+                                UFMT Campus Várzea Grande
+
+                            </b><br>
+                            <p>
+                                Equipe de projeto acadêmico responsável por
+                                implementar automação de equipamentos elétricos
+                                no prédio da instituição, com controle por aplicativo.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [02/2019 - 02/2021] &nbsp;&nbsp; Estágio Biblioteca<br>
+                            <b class='descricao_infos'>
+                                Biblioteca Central da UFMT
+                            </b><br>
+                            <p>
+                                Função: Atendimento ao público e Administração do acervo
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr class='text_all'>
+                        <th><i class="icones-habilidades fa-solid fa-circle-check"></i></th>
+                        <td> [2018 - ...] &nbsp;&nbsp; Freelances Projetos Arquitetônicos<br>
+                            <b class='descricao_infos'>
+                                AutoCAD e SketchUp
+                            </b><br>
+                            <p>
+                                Freelances com AutoCAD fazendo projetos arquitetônicos simples e visualização 3D no
+                                SketchUp
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Localização</h4>
+                    <p class="lead mb-0">
+                        Cuiabá - MT
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Hospedagem</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" title="Abrir hospedagem de pagina esaica no GitHub" href="https://github.com/paulo-henrique-phcm/paulo-henrique-phcm.github.io"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Contato</h4>
+                    <p class="lead mb-0">
+                        paulo.phcm98@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <!-- <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+    </div> -->
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Python - MediaPipe</h2>
+                                <h3> Uma Brincadeira de feriado,
+                                    Rotação vetorial usando Biblioteca MediaPipe</h3>
+                                <!-- Portfolio Modal - Image-->
+
+                                <img class="img-fluid"
+                                    src="https://github.com/paulo-henrique-phcm/rotacao_vetorial_controle_de_botao_rotativo_usando_mediapipe_python/blob/main/gif_video_teste_mediapipe.gif?raw=true"
+                                    loop="infinite/">
+                                <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Com intuido de relembrar conceitos básicos de cáculos trigonométricos
+                                    vetoriais da faculdade, implementei esse código num feriado.<br>
+                                    Aqui, uso a biblioteca MediPipe para detectar posições dos dedos e relaizo cálculos
+                                    para girar o vetor como se fosse um botão rotativo virtual.
+                                    <br>Veja também o <a
+                                        href="https://github.com/paulo-henrique-phcm/rotacao_vetorial_controle_de_botao_rotativo_usando_mediapipe_python"
+                                        target="_blank">código fonte no Git.</a>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fechar
+                                </button>
+                                <a href="https://github.com/paulo-henrique-phcm/rotacao_vetorial_controle_de_botao_rotativo_usando_mediapipe_python"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    Abrir no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">ToDo-List</h2>
+                                <h3>Minha primeira ToDo-List com JavaScript</h3>
+
+                                <!-- Portfolio Modal - Image-->
+
+                                <img class="img-fluid" src="./assets/img/todo-apre.PNG">
+                                <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Com intuido de aprender JavaScript e conceitos de NodeJs resolvi
+                                    implementar uma lista de afazeres simples, sem banco de dados.<br>
+                                    O sistema de hospedagem do GitHub suporta html css e Js, portanto clique e veja o
+                                    conceito simples de inserção, confirmação e remoção de uma tarefa da lista.
+                                    <br>Veja também o <a
+                                        href="https://github.com/paulo-henrique-phcm/JavaScript-ToDo-List"
+                                        target="_blank">código fonte no Git.</a>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fechar
+                                </button>
+                                <a href="https://github.com/paulo-henrique-phcm/JavaScript-ToDo-List" target="_blank"
+                                    rel="noopener noreferrer" class="btn btn-primary">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    Abrir no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Outra Brincadeira de feriado</h2>
+                                <h3>Simulação de perticulas livres no vácuo com atração</h3>
+                                <!-- Portfolio Modal - Image-->
+
+                                <img class="img-fluid" src='./simulacao_particulas/exemplo_particulas.png'>
+                                <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Usando lei da gravitação universal para simular o movimento e atração gravitacional
+                                    entra particulas com "massa".
+                                    Clique na tela com a simulação para acrescentar outras particulas de tamanho e massa
+                                    aleatórios ao sistema. veja como elas se comportam e se atraem.
+                                    <br>Abra a simulação clicando <a
+                                        href="https://paulo-henrique-phcm.github.io/simulacao_particulas/animacao_gravi.html"
+                                        target="_blank">Aqui!</a>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fechar
+                                </button>
+                                <a href="https://paulo-henrique-phcm.github.io/simulacao_particulas/animacao_gravi.html"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    Ver simulação
+                                </a>
+                                <a href="https://github.com/paulo-henrique-phcm/Simulacao-atracao_gravitacional_entre_particulas"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    Abrir no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Docker</h2>
+                                <h3>Alguns exemplos de projetos que ja concretizei usando docker</h3>
+
+                                <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                <!-- Portfolio Modal - Text-->
+                                <h5 class="mb-4">
+                                    Profissionalmente já criei e implementei soluções usando API's com Python e Docker.
+                                    Como são projetos sem inerface e restritas ao cliente, somente descreverei o que foi
+                                    feito:
+                                </h5>
+                                <p>
+                                    <a style="font-size: 1.4rem;">•</a> Download automático de XML's de notas fiscais
+                                    através da API do portal SIEG.
+                                    A aplicação em container em atividade até hoje no servidor de produção do cliente
+                                </p>
+                                <p>
+                                    <a style="font-size: 1.4rem;">•</a> Construí um framework em Python usando Selenium
+                                    que facilita a criação e manutenção de RPA's Web.
+                                    O objetivo foi facilitar a automação de processos web em sistemas nos clientes.
+                                    A solução conta com módulos de conexão e comunicação com bancos de dados, API's,
+                                    Envio de e-mail, registro de logs, e outros...
+                                </p>
+                                <p>
+                                    <a style="font-size: 1.4rem;">•</a> Criei uma extensão para VsCode usada pela
+                                    empresa e alguns clientes.
+                                    Essa extesão realiza a análise dos códigos ADVP e TLPP usando uma aplicação JAVA
+                                    feio pela TOTVS.
+                                    Para isso, contruí uma API com Python em um container que executa a aplicação da
+                                    TOTVS.
+                                    A API está hospedada num servidor GCP e é acessada pela extensão do VsCode, enviando
+                                    os fontes e retornando o resultado das análises em uma tela personalizada no VsCode,
+                                    facilitando o desenvolvimento de toda a equipe.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fechar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
