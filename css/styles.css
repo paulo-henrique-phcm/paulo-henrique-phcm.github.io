@@ -157,11 +157,13 @@
   border: none;
 }
 
-.indicador-qualificacao{
+.indicador-qualificacao {
   width: 4rem;
   padding: 8px;
 }
-.icones-habilidades, .icones-habilidades i{
+
+.icones-habilidades,
+.icones-habilidades i {
   font-size: 1.8rem;
   padding-left: 8px;
   padding-right: 8px;
@@ -173,7 +175,7 @@
   transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
   border-radius: 20px;
   display: block;
-  padding: 10px;
+  padding: 5px;
   filter: drop-shadow(1px 1px 3px rgba(28, 28, 28, 0.078));
   background: radial-gradient(ellipse at center, rgba(31, 31, 31, 0.115), transparent);
 }
@@ -183,11 +185,11 @@
   background-color: rgba(31, 31, 31, 0.192);
 }
 
-.it_a{
+.it_a {
   color: var(--bs-gray-200);
 }
 
-.marcador_icon{
+.marcador_icon {
   width: 100%;
 }
 
@@ -213,7 +215,8 @@
 .seta-flutuante {
   animation: flutuar 2s infinite ease-in-out;
   font-size: 2rem;
-  padding: 30px;
+  /* padding: 20px; */
+  padding: 20px;
   cursor: pointer;
   transition: font-size 0.3s ease-in-out, animation 0.6s ease-in-out;
   /* Definindo a animação de flutuação contínua */
@@ -232,7 +235,8 @@
 
 
 .collapse-itens {
-  max-height: 1000vh; /* ajuste conforme necessário */
+  max-height: 1000vh;
+  /* ajuste conforme necessário */
   transition: max-height 0.4s ease-in-out;
 }
 
@@ -262,6 +266,54 @@
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 10px;
+}
+
+.meu-carrosel {
+  min-width: 50%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  filter: drop-shadow(0px 0px 10px rgba(28, 28, 28, 0.343));
+  transition: transform 0.2s ease-in-out;
+}
+
+.meu-carrosel:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1200px) {
+  .meu-carrosel {
+    min-width: 50%;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.botoes-proximo-carrosel {
+  filter: drop-shadow(0px 0px 10px rgba(28, 28, 28, 0.639));
+}
+
+#carouselExampleIndicators>.carousel-indicators>button {
+  filter: drop-shadow(0px 0px 5px rgb(14, 14, 14));
+}
+
+
+
+.cabecalho {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("assets/img/fundo-cab.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 15px #00000048;
 }
 
 /*============================================================*/
@@ -332,7 +384,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.2rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
@@ -12802,8 +12854,12 @@ html {
 }
 
 .page-section {
-  padding: 2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   position: relative;
+  min-height: 5rem;
 }
 
 .page-section::before {
@@ -12818,14 +12874,14 @@ html {
 }
 
 .page-section .page-section-heading {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 2.2rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -12978,7 +13034,7 @@ html {
 }
 
 .masthead {
-  padding-top: 100px;
+  padding-top: 8rem;
   padding-bottom: 2rem;
 }
 
@@ -13000,7 +13056,7 @@ html {
 
 .masthead .masthead-heading {
   font-size: 2.75rem;
-  line-height: 2.75rem;
+  line-height: 2.9rem;
 }
 
 .masthead .masthead-subheading {
@@ -13019,7 +13075,7 @@ html {
 
   .masthead .masthead-heading {
     font-size: 4rem;
-    line-height: 3.5rem;
+    line-height: 3.8rem;
   }
 
   .masthead .masthead-subheading {
@@ -13062,13 +13118,13 @@ html {
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
-  line-height: 2rem;
+  line-height: 2.2rem;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
-    line-height: 2.5rem;
+    line-height: 2.8rem;
   }
 }
 
