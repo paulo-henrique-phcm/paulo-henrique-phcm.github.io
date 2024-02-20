@@ -898,6 +898,10 @@ progress {
   object-fit: cover;
 }
 
+.img-fluid-modal {
+  width: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -6294,6 +6298,7 @@ fieldset:disabled .btn {
 .modal-dialog-scrollable .modal-content {
   max-height: 100%;
   overflow: hidden;
+  min-height: 100%;
 }
 
 .modal-dialog-scrollable .modal-body {
