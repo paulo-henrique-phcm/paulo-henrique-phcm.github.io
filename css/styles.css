@@ -179,8 +179,9 @@
   border-radius: 30px;
   display: block;
   padding: 8px;
+  margin: 15px;
   filter: drop-shadow(1px 1px 3px rgba(28, 28, 28, 0.078));
-  background: radial-gradient(ellipse at center, rgba(66, 70, 71, 0.288), transparent);
+  background: radial-gradient(ellipse at center, rgba(221, 221, 221, 0.123), transparent);
 }
 
 .text_all:hover {
