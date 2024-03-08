@@ -201,7 +201,7 @@
   width: 100%;
 }
 
-@keyframes flutuar {
+@keyframes flutuar-rotaciona {
   0% {
     /* transform: translateY(-10px); */
     transform: scale(1) rotate(0deg);
@@ -221,7 +221,7 @@
 }
 
 .seta-flutuante {
-  animation: flutuar 2s infinite ease-in-out;
+  animation: flutuar-rotaciona 2s infinite ease-in-out;
   font-size: 2rem;
   /* padding: 20px; */
   padding: 20px;
@@ -230,7 +230,7 @@
   /* Definindo a animação de flutuação contínua */
 }
 
-@keyframes flutuar {
+@keyframes flutuar-vertical {
   0% {
     transform: translateY(-5px);
     /* transform: scale(1) rotate(0deg); */
@@ -251,7 +251,7 @@
 
 .botao-flutuante-expand-habilidades{
   padding-left: 15px;
-  animation: flutuar 1s infinite ease-in-out;
+  animation: flutuar-vertical 1s infinite ease-in-out;
   font-size: 2rem;
   cursor: pointer;
   transition: font-size 0.3s ease-in-out, animation 0.6s ease-in-out;
