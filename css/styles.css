@@ -128,8 +128,8 @@
 }
 
 .style_btn_cab:hover {
-  transition: transform .2s;
-  transform: scale(1.2);
+  transition: transform .2s ease-in-out, color .2s ease-in-out;
+  transform: scale(1.05);
   color: var(--bs-orange);
 }
 
@@ -4466,7 +4466,7 @@ fieldset:disabled .btn {
   font-weight: var(--bs-nav-link-font-weight);
   color: var(--bs-nav-link-color);
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4478,6 +4478,7 @@ fieldset:disabled .btn {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
+  transform: scale(1.05);
 }
 
 .nav-link.disabled {
