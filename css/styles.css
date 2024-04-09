@@ -249,7 +249,7 @@
   }
 }
 
-.botao-flutuante-expand-habilidades{
+.botao-flutuante-expand-habilidades {
   padding-left: 15px;
   animation: flutuar-vertical 1s infinite ease-in-out;
   font-size: 2rem;
@@ -257,7 +257,7 @@
   transition: font-size 0.3s ease-in-out, animation 0.6s ease-in-out;
 }
 
-.botao-flutuante-expand-habilidades:hover{
+.botao-flutuante-expand-habilidades:hover {
   font-size: 2.2rem;
 }
 
@@ -355,21 +355,21 @@
   box-shadow: 0px 0px 15px #00000048;
 }
 
-.btn{
+.btn {
   margin: 10px;
 }
 
-.icons-svg-load{
+.icons-svg-load {
   padding-left: 8px;
   padding-right: 8px;
   filter: drop-shadow(1px 1px 5px rgba(28, 28, 28, 0.149));
 }
 
-.titulo-e-alinhamento{
+.titulo-e-alinhamento {
   text-align: left;
 }
 
-.cards-head{
+.cards-head {
   margin-top: 3rem;
   margin-bottom: -100;
   padding-bottom: 0;
@@ -377,11 +377,11 @@
 
 @media (max-width: 900px) {
 
-  .titulo-e-alinhamento{
+  .titulo-e-alinhamento {
     text-align: center;
   }
 
-  .cards-head{
+  .cards-head {
     margin-top: 2rem;
   }
 }
@@ -12964,8 +12964,8 @@ html {
   .page-section .page-section-heading {
     font-size: 2rem;
     line-height: 2.8rem;
-  padding: 40px;
-}
+    padding: 40px;
+  }
 }
 
 .divider-custom {
@@ -13175,7 +13175,7 @@ html {
   height: 16rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -13183,16 +13183,29 @@ html {
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 1;
+  /* background-color: rgba(26, 188, 156, 0.9); */
+  /* background-image: linear-gradient(to top, rgba(26, 188, 156, 0.9), transparent); */
+  /* background-image: linear-gradient(to top, rgba(26, 188, 156, 1) 20%, transparent 40%); */
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: .1;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  height: 30%;
+  width: 100%;
+  padding: .2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);;
+  background-color: rgba(26, 188, 156, 0.85);
 }
 
 .portfolio-modal .btn-close {
